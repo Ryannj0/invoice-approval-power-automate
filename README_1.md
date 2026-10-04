@@ -51,8 +51,7 @@ flowchart LR
 | 1 | Acme packaging | INV-1001 | £250 | Sales manager (under £750) | Approved | none |
 | 2 | Chem supplies ltd | INV-1002 | £1,250 | CFO (over £750) | Rejected | "Needs invoice file submission." |
 
-Both routes worked: the small invoice went to the Sales manager, the large one to the CFO, and each submitter received an outcome email. The expected log output is in [`sample-data/invoice-log-sample.csv`](sample-data/invoice-log-sample.csv).
-
+Both routes worked: the small invoice went to the Sales manager, the large one to the CFO, and each submitter received an outcome email. 
 ## Screenshots
 
 ### The flow
