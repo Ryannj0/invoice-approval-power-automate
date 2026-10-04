@@ -102,7 +102,6 @@ first(outputs('Start_and_wait_for_an_approval')?['body/responses'])?['responder'
 if(equals(outputs('Start_and_wait_for_an_approval')?['body/outcome'], 'Approve'), 'approved', 'rejected')
 ```
 
-The build guide in [docs/build-guide.md](docs/build-guide.md) lists every step and expression. It uses £500 as its example threshold; this build uses £750.
 
 ## Security and privacy considerations
 
